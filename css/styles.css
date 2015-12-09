@@ -165,19 +165,7 @@ footer h20 { margin-left: 40px;}
 
 
 @media (max-width: 999px) {
-    nav {
-        text-align: center;
-    }
-    nav ul {
-        text-align: center;
-    }
-    nav li {
-        padding: 40px 10px 0px 10px;
-    }
-    nav a {
-        text-align: center;
-    }
-    
+   
     .u-pull-right {align-items: center;}
     
     work h1 {
