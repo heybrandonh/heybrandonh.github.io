@@ -12,7 +12,6 @@
 }
 .nav li {
     display: inline-block;
-    padding: 0 0 0 20px;
 }
 .nav a {
     text-decoration: none;
