@@ -104,6 +104,7 @@ eye {
     background-position: center center;
 }
 
+
 .work h3 {
     font-family:"Avenir";
     font-weight: 700;
@@ -165,6 +166,32 @@ footer h20 { margin-left: 40px;}
 .u-pull-right {align: center;}
 
 
+@media (max-width: 399px) {
+    
+    .skillset ul {
+        font-size: 1.2em;
+        list-style: none;
+    }
+    .social ul {
+        text-align: center;
+    }
+    .social li {
+        display: block;
+    }
+    
+}
+
+@media (min-width: 550px) {
+
+}
+
+@media (min-width: 1000px) {
+
+    .skillset h4 {
+        display: none;
+    }
+}
+
 @media (max-width: 999px) {
     nav {
         text-align: center;
@@ -178,21 +205,9 @@ footer h20 { margin-left: 40px;}
     nav a {
         text-align: center;
     }
-    
-    .u-pull-right {align-items: center;}
-    
-    work h1 {
-        text-align: center;
+    .skillset h4 {
+        display: none;
     }
-    
-     work h2 {
-        text-align: center;
-    }
-    
-     work h3 {
-        text-align: center;
-    }
-    
     .lg-pad {
         padding: 50px 0;
     }
@@ -205,9 +220,18 @@ footer h20 { margin-left: 40px;}
     .sm-pad {
         padding: 10px 0;
     }
-    
-  
-    
-    
+}
+
+@media (max-width: 749px) {
+
+}
+
+@media (max-width: 549px) {
+
+    .skillset h4 {
+        display: block;
+    }
+}
+
     
     
